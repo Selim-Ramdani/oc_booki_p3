@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    >
+  </head>
+  <body>
+    <div class="container">
+    <!-- HEADER PART (logo, navigation) -->
+      <header>
+        <div class="header_logo">
+          <a href="#"><img src="./images/logo/Booki.png" alt="booki-logo"></a>
+        </div>
+
+        <nav class="header_links">
+          <a href="#">Hébergements</a>
+          <a href="#">Activités</a>
+        </nav>
+      </header>
+
+      <!-- MAIN PART -->
+      <main>
+        <section class="top_page">
+          <div class="main_title">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+          </div>
+          
+          <div class="main_form">
+            <form class="search_form">
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <input type="text" placeholder="Marseille, France">
+              <button class="search_desktab">Rechercher</button>
+              <button class="search_mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+          
+          <div class="main_filters">
+            <span>Filtres</span>
+            <ul class="filters-ul">
+              <li>
+                <span><i class="fa fa-lg fa-money-bill-wave"></i>Economique</span>
+              </li>
+              <li>
+                <span><i class="fa fa-lg fa-child-reaching"></i>Familial</span>
+              </li>
+              <li>
+                <span><i class="fa-solid fa-heart"></i>Romantique</span>
+              </li>
+              <li>
+                <span><i class="fa-solid fa-dog"></i>Animaux autorisés</span>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+            <span class="info_icon">
+              <i class="fa-solid fa-info fa-xs"></i>
+            </span>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
