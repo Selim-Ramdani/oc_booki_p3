@@ -22,6 +22,10 @@ a:hover {
   transition: 0.2s ease;
 }
 
+div > a:hover {
+  color: black;
+}
+
 input {
   outline: none;
   font-size: 16px;
@@ -189,5 +193,165 @@ form > button:hover {
 }
 
 .info > p {
+  padding: 1rem 0;
   font-size: 14.5px;
+}
+
+/* accommodations MARSEILLE PART */
+.accommodations {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accommodations_left {
+  background-color: var(--grey);
+  width: 68%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.accommodations_left h2 {
+  padding: 15px 0;
+}
+
+.accommodations_left_display {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+
+.accommodations_left_card {
+  width: 32%;
+  height: 200px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 6px #e6e6e6;
+}
+
+.accommodations_left_card:hover {
+  transform: scale(1.01);
+}
+
+.accommodations_left_img {
+  width: 100%;
+  height: 107px;
+  object-fit: cover;
+  border-radius: 13px 13px 0px 0px;
+}
+.accommodations_left_title {
+  font-weight: bold;
+  padding: 2% 0 3% 3%;
+  object-fit: fill;
+}
+.accommodations_left_price {
+  font-size: smaller;
+  padding-left: 3%;
+}
+
+.stars {
+  display: flex;
+  padding-left: 3%;
+  margin: 14.5px 0 14.5px 0;
+}
+.blue_star {
+  color: var(--blue);
+}
+.grey_star {
+  color: var(--grey);
+}
+
+/* ACCOMMODATIONS POPULARS PART */
+.accommodations_right {
+  background-color: var(--grey);
+  width: 30%;
+  padding-top: 20px;
+  padding-left: 2%;
+  border-radius: 15px;
+}
+
+.accommodations_right_title {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 18px;
+}
+
+.accommodations_right_display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  margin-top: 0;
+}
+
+.accommodations_right_card {
+  width: 90%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  object-fit: fill;
+  margin-bottom: 7%;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 6px #e6e6e6;
+}
+
+.accommodations_right_card:hover {
+  transform: scale(1.01);
+}
+
+.img_leftside {
+  width: 39%;
+  object-fit: fill;
+}
+
+.accommodations_right_img {
+  width: 100%;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 13px 0px 0px 13px;
+}
+
+/*Right part card*/
+.pop_rightside {
+  width: 62%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  object-fit: fill;
+}
+.populars_title {
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  padding-left: 4px;
+  object-fit: fill;
+}
+.populars_price {
+  font-size: smaller;
+  padding-top: 5px;
+  padding-left: 4px;
+  object-fit: fill;
+}
+
+.stars_pop {
+  display: flex;
+  flex-direction: row;
+  padding-top: 45px;
+  padding-left: 4px;
 }
