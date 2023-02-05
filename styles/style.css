@@ -23,6 +23,10 @@ a:hover {
   transition: 0.2s ease;
 }
 
+b {
+  display: contents;
+}
+
 div > a:hover {
   color: black;
 }
@@ -283,6 +287,10 @@ form > button:hover {
   align-items: center;
   padding: 1rem 0;
   font-size: 18px;
+}
+
+.accommodations_right_title > i {
+  color: var(--blue);
 }
 
 .accommodations_right_display {
