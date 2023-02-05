@@ -18,10 +18,6 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
-  color: var(--blue);
-  transition: 0.2s ease;
-}
 
 b {
   display: contents;
@@ -214,7 +210,7 @@ form > button:hover {
 }
 
 .accommodations_left h2 {
-  padding: 15px 0;
+  padding: 0.5rem 0;
 }
 
 .accommodations_left_display {
@@ -239,6 +235,7 @@ form > button:hover {
 
 .accommodations_left_card:hover {
   transform: scale(1.01);
+  color: black;
 }
 
 .accommodations_left_img {
@@ -269,6 +266,10 @@ form > button:hover {
   color: var(--grey);
 }
 
+#more_info {
+  font-weight: bold;
+}
+
 /* ACCOMMODATIONS POPULARS PART */
 .accommodations_right {
   background-color: var(--grey);
@@ -284,7 +285,7 @@ form > button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .accommodations_right_title > i {
@@ -360,4 +361,39 @@ form > button:hover {
   flex-direction: row;
   padding-top: 45px;
   padding-left: 4px;
+}
+
+/* SECTION ACTIVITIES */
+.activities {
+  padding: 2rem 0;
+}
+
+.activities > h2 {
+  padding: 1rem 0;
+}
+
+.activities_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activities_card {
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 6px #e6e6e6;
+  overflow: hidden;
+  width: 280px;
+}
+
+.activities_card:hover {
+  scale: 1.01;
+}
+
+.img_activities > img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.title_activities {
+  padding: 15px 10px;
+  font-weight: bold;
 }
