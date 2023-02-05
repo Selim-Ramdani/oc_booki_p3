@@ -390,3 +390,27 @@ form > button:hover {
   padding: 15px 10px;
   font-weight: bold;
 }
+
+/* FOOTER PART */
+
+footer {
+  margin: 2rem 5px 0px 35px;
+  display: flex;
+  background-color: var(--grey);
+}
+
+footer > ul {
+  width: 40%;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer > ul > h2 {
+  margin-bottom: 15px;
+}
+
+footer > ul > li {
+  margin-bottom: 10px;
+}
