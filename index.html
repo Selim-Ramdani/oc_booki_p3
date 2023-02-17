@@ -41,7 +41,7 @@
             </span>
             <input type="text" placeholder="Marseille, France" />
             <button type="submit" class="search_desktop">
-              Rechercher
+              <span class="search_desktop"> Rechercher </span>
               <span class="search_mobile"
                 ><i class="fa-solid fa-magnifying-glass"></i
               ></span>
@@ -80,7 +80,7 @@
             <ul class="accommodations_left_display">
               <li class="accommodations_left_card">
                 <a href="#">
-                  <div>
+                  <div class="bloc_img">
                     <img
                       class="accommodations_left_img"
                       src="images/hebergements/auberge_la_cannebière.jpg"
@@ -88,20 +88,16 @@
                     />
                   </div>
                   <div class="accommodations_description">
-                    <div class="accommodations_left_title">
-                      <h3>Auberge La Cannebière</h3>
-                    </div>
-                    <div class="accommodations_left_price">
-                      <p>Nuit à partir de 25<b>€</b></p>
-                    </div>
+                    <h3>Auberge La Cannebière</h3>
+                    <p>Nuit à partir de 25<b>€</b></p>
                   </div>
-                  <ul class="stars">
-                    <li><i class="fa-solid fa-star blue_star"></i></li>
-                    <li><i class="fa-solid fa-star blue_star"></i></li>
-                    <li><i class="fa-solid fa-star blue_star"></i></li>
-                    <li><i class="fa-solid fa-star blue_star"></i></li>
-                    <li><i class="fa-solid fa-star grey_star"></i></li>
-                  </ul>
+                  <div class="stars">
+                    <i class="fa-solid fa-star blue_star"></i>
+                    <i class="fa-solid fa-star blue_star"></i>
+                    <i class="fa-solid fa-star blue_star"></i>
+                    <i class="fa-solid fa-star blue_star"></i>
+                    <i class="fa-solid fa-star grey_star"></i>
+                  </div>
                 </a>
               </li>
 
@@ -300,10 +296,7 @@
                   </div>
                   <div class="pop_rightside">
                     <div class="pop_top">
-                      <h3>
-                        Chambres d'hôtes Au<br />
-                        coeur de l'eau
-                      </h3>
+                      <h3>Chambres d'hôtes Au coeur de l'eau</h3>
                       <p>Nuit à partir de 71<b>€</b></p>
                     </div>
                     <div class="pop_bottom">
@@ -426,30 +419,46 @@
 
       <!-- FOOTER PART -->
       <footer>
-        <ul>
-          <li>
-            <div class="about">
-              <h2>À propos</h2>
-              <a href="#">Fonctionnement du site</a>
-              <a href="#">Conditions générales</a>
-              <a href="#">Données de confidentialité</a>
-            </div>
-          </li>
-          <li>
-            <div class="our_accommodations">
-              <h2>Nos hébergements</h2>
-              <a href="#">Charte qualité</a>
-              <a href="#">Proposer votre hôtel</a>
-            </div>
-          </li>
-          <li>
-            <div class="help">
-              <h2>Assistance</h2>
-              <a href="#">Centre d'aide</a>
-              <a href="#">Nous contacter</a>
-            </div>
-          </li>
-        </ul>
+        <div class="footer_container">
+          <div class="footer_items">
+            <h3>À propos</h3>
+            <ul>
+              <li>
+                <a href="#">Fonctionnement du site</a>
+              </li>
+              <li>
+                <a href="#">Conditions générales</a>
+              </li>
+              <li>
+                <a href="#">Données de confidentialité</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_items">
+            <h3>Nos hébergements</h3>
+            <ul>
+              <li>
+                <a href="#">Charte qualité</a>
+              </li>
+              <li>
+                <a href="#">Proposer votre hôtel</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_items">
+            <h3>Assistance</h3>
+            <ul>
+              <li>
+                <a href="#">Centre d'aide</a>
+              </li>
+              <li>
+                <a href="#">Nous contacter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
