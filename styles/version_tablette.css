@@ -1,2 +1,23 @@
 @media all and (min-width: 768px) and (max-width: 992px) {
+  .accommodations {
+    flex-direction: column;
+  }
+
+  .accommodations_left {
+    width: 100%;
+  }
+  .accommodations_right {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .accommodations_right_display {
+    flex-direction: row;
+  }
+  .accommodations_right_card {
+    margin-right: 20px;
+  }
+  .accommodations_right_card:last-child {
+    margin-right: 0;
+  }
 }
