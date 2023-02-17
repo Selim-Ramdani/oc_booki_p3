@@ -20,4 +20,8 @@
   .accommodations_right_card:last-child {
     margin-right: 0;
   }
+
+  .img_activities img {
+    height: 267px;
+  }
 }
