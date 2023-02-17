@@ -223,12 +223,15 @@ form > button:hover {
 
 .accommodations_left_card {
   width: 32%;
-  height: 200px;
   margin-bottom: 30px;
   background-color: white;
   border: 4px solid white;
   border-radius: 17px 17px 17px 17px;
   box-shadow: 4px 4px 6px #e6e6e6;
+}
+
+.accommodations_left_card .stars {
+  padding: 5px 10px;
 }
 
 .accommodations_left_card:hover {
@@ -238,23 +241,21 @@ form > button:hover {
 
 .accommodations_left_img {
   width: 100%;
-  height: 107px;
+  height: 124px;
   object-fit: cover;
   border-radius: 13px 13px 0px 0px;
 }
-.accommodations_left_title {
-  font-weight: bold;
-  padding: 2% 0 3% 3%;
-  object-fit: fill;
-}
-.accommodations_left_price {
-  padding-left: 3%;
+
+.accommodations_description {
+  padding: 5px 10px;
+  margin-bottom: 12px;
 }
 
+.accommodations_description h3 {
+  margin-bottom: 5px;
+}
 .stars {
   display: flex;
-  padding-left: 3%;
-  margin: 14.5px 0 14.5px 0;
 }
 .blue_star {
   color: var(--blue);
@@ -265,6 +266,7 @@ form > button:hover {
 
 #more_info {
   font-weight: bold;
+  font-size: 18px;
 }
 
 /* ACCOMMODATIONS POPULARS PART */
@@ -299,7 +301,6 @@ form > button:hover {
 }
 
 .accommodations_right_card {
-  /* width: 90%;*/
   flex-wrap: wrap;
   object-fit: fill;
   margin-bottom: 30px;
@@ -329,7 +330,7 @@ form > button:hover {
 .pop_rightside {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 15px;
   flex-direction: column;
   object-fit: fill;
   flex: 1;
