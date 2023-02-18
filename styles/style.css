@@ -374,7 +374,6 @@ form > button:hover {
 .activities_card {
   border-radius: 17px 17px 17px 17px;
   box-shadow: 4px 4px 6px #e6e6e6;
-  margin-right: 10px;
   width: 23%;
   overflow: hidden;
 }
