@@ -342,11 +342,6 @@ form > button:hover {
 }
 .populars_title {
   font-weight: bold;
-  /* font-weight: bold;
-  padding-top: 4%;
-  padding-bottom: 3%;
-  padding-left: 4px;
-  object-fit: fill; */
 }
 .populars_price {
   font-size: smaller;
