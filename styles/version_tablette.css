@@ -41,4 +41,12 @@
   .img_activities img {
     height: 267px;
   }
+
+  .footer_container {
+    justify-content: space-around;
+  }
+
+  .footer_items {
+    width: auto;
+  }
 }

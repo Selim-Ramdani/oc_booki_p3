@@ -60,7 +60,7 @@ header {
 }
 
 .header_logo img {
-  width: 40%;
+  height: 30px;
 }
 
 .header_links {
@@ -155,19 +155,8 @@ form > button:hover {
   margin-right: 15px;
 }
 
-.main_filters > ul > li > span > i {
-  color: var(--blue);
-  margin-right: 10px;
-}
-
-.main_filters > ul > li > span {
-  display: block;
+.main_filters > span {
   font-weight: bold;
-  padding: 12px 18px;
-  font-size: 15px;
-  border-radius: 25px;
-  border: 2px solid var(--grey);
-  cursor: pointer;
 }
 
 .main_filters > ul > li:hover {
@@ -176,6 +165,21 @@ form > button:hover {
 
 .main_filters > ul > li > span:hover {
   color: var(--blue);
+}
+
+.main_filters > ul > li > span > i {
+  color: var(--blue);
+  margin-right: 10px;
+}
+
+.main_filters > ul > li span {
+  display: block;
+  font-weight: bold;
+  padding: 12px 18px;
+  font-size: 13.5px;
+  border-radius: 25px;
+  border: 2px solid var(--grey);
+  cursor: pointer;
 }
 
 .info {
