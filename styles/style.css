@@ -107,7 +107,7 @@ form > input {
   padding: 15px;
 }
 
-.search_desktop {
+.search_block {
   font-size: 16px;
   padding: 8px;
   background-color: #0065fc;
@@ -484,8 +484,11 @@ form > button:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
     padding-left: 0;
+  }
+
+  .header_logo > a {
+    padding-top: 20px;
   }
 
   img #logo {
@@ -493,8 +496,9 @@ form > button:hover {
   }
 
   .header_links {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
   }
 
   .header_links a {
@@ -514,6 +518,10 @@ form > button:hover {
     padding: 15px 0;
   }
 
+  form > input {
+    padding: 15px 45px;
+  }
+
   .search_form {
     justify-content: center;
   }
@@ -523,13 +531,16 @@ form > button:hover {
 
   .search_mobile {
     display: block;
+    padding: 8px;
+  }
+
+  .main_title > h1 {
+    font-size: 24px;
+  }
+
+  .main_title > p {
+    margin: 13px 0 20px 0;
     font-size: 16px;
-    padding: 18px;
-    background-color: #0065fc;
-    color: white;
-    font-weight: bold;
-    overflow: hidden;
-    border-radius: 0px 10px 10px 0px;
   }
 
   .main_filters {
@@ -538,22 +549,47 @@ form > button:hover {
   }
 
   .main_filters > span {
-    text-align: left;
     font-size: 18px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .main_filters > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .main_filters > ul > li {
+    margin-right: 15px;
+    width: 45%;
     margin-bottom: 15px;
   }
 
-  .main_filters > ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    align-items: center;
-    justify-content: center;
+  .main_filters > ul > li > span {
+    font-size: 11px;
+    padding: 12px 8px;
   }
 
-  .main_filters > ul > li span {
-    font-size: 11px;
+  .info {
+    display: flex;
+    padding: 16px 0 15px 0px;
+  }
+
+  .info_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
+    margin-right: 10px;
+    border: 2px solid var(--grey);
+  }
+
+  .info > p {
+    font-size: 16px;
   }
 
   .accommodations {
@@ -581,6 +617,10 @@ form > button:hover {
   }
 
   .accommodations_right_title {
+    padding: 20px 0;
+  }
+
+  .accommodations_right_title > h2 {
     font-size: 22px;
   }
 
@@ -603,6 +643,10 @@ form > button:hover {
     display: none;
   }
 
+  .accommodations_left > h2 {
+    font-size: 22px;
+  }
+
   .accommodations_left_card {
     margin-bottom: 12px;
     width: 100%;
@@ -617,6 +661,20 @@ form > button:hover {
     padding-bottom: 2%;
   }
 
+  .pop_rightside {
+    padding: 8px 20px;
+  }
+  .pop_rightside h3 {
+    font-size: 16px;
+  }
+
+  .pop_rightside p {
+    font-size: 14px;
+  }
+
+  .activities > h2 {
+    font-size: 22px;
+  }
   .activities {
     padding: 2rem 1rem;
   }
@@ -641,5 +699,17 @@ form > button:hover {
 
   .footer_items {
     margin-bottom: 40px;
+  }
+
+  .footer_items > h3 {
+    font-size: 18px;
+  }
+
+  .footer_items > ul > li > a {
+    font-size: 16px;
+  }
+
+  .footer_items:last-child {
+    margin-bottom: 0;
   }
 }
