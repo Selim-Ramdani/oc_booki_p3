@@ -82,9 +82,6 @@ header {
 
 /* main part */
 
-main {
-}
-
 .main_title > p {
   margin: 8px 0 20px 0;
 }
@@ -163,15 +160,6 @@ form > button:hover {
   transform: scale(1.02);
 }
 
-.main_filters > ul > li > span:hover {
-  color: var(--blue);
-}
-
-.main_filters > ul > li > span > i {
-  color: var(--blue);
-  margin-right: 10px;
-}
-
 .main_filters > ul > li span {
   display: block;
   font-weight: bold;
@@ -180,6 +168,15 @@ form > button:hover {
   border-radius: 25px;
   border: 2px solid var(--grey);
   cursor: pointer;
+}
+
+.main_filters > ul > li > span:hover {
+  color: var(--blue);
+}
+
+.main_filters > ul > li > span > i {
+  color: var(--blue);
+  margin-right: 10px;
 }
 
 .info {
@@ -497,11 +494,10 @@ form > button:hover {
 
   .header_links {
     width: 100%;
-    display: flex;
     text-align: center;
   }
 
-  .header_links a {
+  .header_links > a {
     width: 100%;
     flex: auto;
     border-bottom: 3px solid var(--grey);
@@ -554,14 +550,11 @@ form > button:hover {
     margin-bottom: 15px;
   }
   .main_filters > ul {
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: flex-start;
   }
 
   .main_filters > ul > li {
-    margin-right: 15px;
     width: 45%;
     margin-bottom: 15px;
   }
@@ -572,20 +565,12 @@ form > button:hover {
   }
 
   .info {
-    display: flex;
     padding: 16px 0 15px 0px;
   }
 
   .info_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--blue);
     width: 24px;
     height: 24px;
-    border-radius: 25px;
-    margin-right: 10px;
-    border: 2px solid var(--grey);
   }
 
   .info > p {
@@ -593,9 +578,7 @@ form > button:hover {
   }
 
   .accommodations {
-    /* flex-direction: column; */
     flex-direction: column-reverse;
-    /* justify-content: space-between; */
   }
 
   .accommodations_left {
@@ -606,8 +589,6 @@ form > button:hover {
   }
 
   .accommodations_right {
-    /* margin-top: 40px; */
-    /* margin-right: 10px; */
     margin-bottom: 15px;
     margin-top: 0;
     margin-right: 0;
@@ -625,7 +606,6 @@ form > button:hover {
   }
 
   .accommodations_right_display {
-    display: flex;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 40px;
